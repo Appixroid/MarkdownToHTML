@@ -4,6 +4,8 @@ A simple command line tool to convert _Markdown_ to _HTML_ for visualization.
 
 ## Compiling
 
+Only one dependency is required for compiling. It needs _libcurl_ installed to compile.
+
 A _Makefile_ is provided to easily compile the soft.
 Just use ```make```.
 
