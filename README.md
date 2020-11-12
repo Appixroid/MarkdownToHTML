@@ -1,11 +1,11 @@
 # MarkdownToHTML
 
-A simple command line tool to simply convert _Markdown_ to _HTML_ for visualization.
+A simple command line tool to convert _Markdown_ to _HTML_ for visualization.
 
 ## Compiling
 
 A _Makefile_ is provided to easily compile the soft.
-Simply use ```make```.
+Just use ```make```.
 
 Additional avalaible directives :
 * The ```clean``` directive remove all binaries and the executable.
