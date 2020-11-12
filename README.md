@@ -4,13 +4,19 @@ A simple command line tool to simply convert _Markdown_ to _HTML_ for visualizat
 
 ## Compiling
 
-A _makefile_ is provided to easily compile the soft.
-Simply use ```make```. A clean target is also available.
+A _Makefile_ is provided to easily compile the soft.
+Simply use ```make```.
+
+Additional avalaible directives :
+* The ```clean``` directive remove all binaries and the executable.
+* The ```install``` directive, in addition to build the executable, place a copy of the executable into the __/usr/bin__ directory.
 
 ## Usage
 
 The command takes one required parameter and one optional.
+
 ```SHELL
 mdtohtml SOURCE [TARGET]
 ```
+
 The source is the _Markdown_ input file and the target is the output _HTML_ file. The target is optional, if no target specified the output file will be named by the input file name appended with ".html".

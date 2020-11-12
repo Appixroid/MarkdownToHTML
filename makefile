@@ -17,3 +17,7 @@ markdownconverter.o: src/MarkdownConverter.cpp
 	
 clean:
 	rm -f bin/*.o ${EXEC}
+	
+install: ${EXEC}
+	sudo cp ${EXEC} /usr/bin/${EXEC}
+
