@@ -2,7 +2,9 @@
 
 A simple command line tool to convert _Markdown_ to _HTML_ for visualization.
 
-## Compiling
+## Getting Started
+
+### Compiling
 
 Only one dependency is required for compiling. It needs _libcurl_ installed to compile.
 
@@ -13,7 +15,7 @@ Additional avaliable directives :
 * The ```clean``` directive removes all binaries and the executable.
 * The ```install``` directive, in addition to build the executable, places a copy of the executable into the __/usr/bin__ directory.
 
-## Usage
+### Usage
 
 The command takes one required parameter and one optional.
 
